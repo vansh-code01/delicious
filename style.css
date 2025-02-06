@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(55, 54, 54);
+    color: white;
+    padding: 10px 0;
+    width: 100vw;
+    box-sizing: border-box;
+    font-size: larger;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40px;
+    background-color: #ebf2f2;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #ccc;
+
+}
+
+.navbar a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.navbar a:hover {
+    background-color: #c3e5e5;
+    transition: background-color 0.3s ease;
+
+}
+
+.sidebar {
+    width: 20vw;
+    background-color: #ebf2f2;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.sidebar h2{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #333;
+}
+
+.sideatag a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+
+    font-size: 1rem;
+    padding: 12px;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.sideatag a:hover {
+    background-color: #c3e5e5;
+    transform: translateX(5px);
+}
+
+#new1 {
+    border-top: 1px dotted rgb(212, 205, 205);
+}
+
+.container {
+    margin-right: 2rem auto;
+    display: flex;
+    flex: 1;
+    max-width: 100vw;
+    max-height: 100vw;
+}
+
+.mainscreen {
+    width: 80vw;
+    line-height: 1.6;
+    padding: 20px;
+    margin-left: 20px;
+    width: 100vw;
+    
+    /* max-width: 900px; */
+}
+.images{
+    display: flex;
+    overflow-x: auto;
+    max-width: 100%;
+    height: 55%;
+    gap: 15px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+    margin-bottom: 5px;
+    
+
+}
+.images img{
+    display: flex;
+    flex-shrink: 0;
+    height: auto;
+    max-height: 350px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.5s;
+
+}
+
+.images img:hover{
+    transform:  scale(1.1);
+}
+
+#im1{
+    height: 350px;
+    width: auto;
+    max-width: 350px;
+    object-fit: cover;
+
+    
+
+}
+#im2{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    
+
+}
+#im3{
+    height: 350px;
+    width: 400px;
+    object-fit: cover;
+}
+
+footer{
+    background-color: rgb(67, 64, 64);
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
